@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <style>
+        .js-heading {
+            color: #800080;
+            text-align: center;
+        }
+    </style>
+</head>
+</head>
+
+<body>
+    <h1 class="js-heading">Welcome To Javascript..!</h1>
+
+
+    <script>
+        //1
+        const marks1 = 5;
+        const marks2 = 3;
+        const total = marks1 + marks2;
+        console.log('The total of ' + marks1 + ' and ' + marks2 + ' is: ' + total);
+
+        //2
+        const day1 = 15;
+        const day2 = 12;
+        const Totaldays = day1 + day2;
+        console.log('The total day' + day1 + ' and ' + day2 + ' is: ' + Totaldays);
+
+        //3
+        const num1 = parseInt(prompt('Enter the first number '));
+        const num2 = parseInt(prompt('Enter the second number '));
+
+        const sum = num1 + num2;
+        console.log(`The sum of ${num1} and ${num2} is: ${sum}`);
+
+        //4
+        const CGPAFE = parseFloat(prompt('Enter your CGPA in first year '));
+        const CGPASE = parseFloat(prompt('Enter your CGPA in second year '));
+
+        const ToalCGPA = CGPAFE + CGPASE;
+        console.log(`The sum of ${CGPAFE} and ${CGPASE} is: ${ToalCGPA}`);
+
+
+
+        //switch case....
+        const num = 5;
+
+        switch (num) {
+            case 1:
+                console.log('One');
+                break;
+
+            case 2:
+                console.log('Two');
+                break;
+
+            case 3:
+                console.log('Three');
+                break;
+
+            case 4:
+                console.log('Four');
+                break;
+
+            case 5:
+                console.log('Five');
+                break;
+
+            case 6:
+                console.log('Six');
+                break;
+
+        }
+
+
+        const marks = 80;
+
+        switch (marks) {
+            case 1:
+                console.log('Thirty');
+                break;
+
+            case 2:
+                console.log('Twenty');
+                break;
+
+            case 3:
+                console.log('Ten');
+                break;
+
+            case 4:
+                console.log('Fourty');
+                break;
+
+            case 5:
+                console.log('nineteen');
+                break;
+
+            case 6:
+                console.log('Sixty');
+                break;
+
+            default:
+                console.log('NOT MATCHED');
+
+        }
+
+
+
+        let a = 2;
+
+        switch (a) {
+            case 1:
+                a = 'one';
+                break;
+            case 2:
+                a = 'two';
+                break;
+            default:
+                a = 'not found';
+                break;
+        }
+        console.log(`The value is ${a}`);
+
+
+        let p = 6;
+
+        switch (p) {
+            case "1":
+                p = 1;
+                break;
+            case 1:
+                p = 'one';
+                break;
+            case 2:
+                p = 'two';
+                break;
+
+            default:
+                p = 'not found';
+                break;
+        }
+        console.log(`The value is ${p}`);
+
+
+    </script>
+
+
+</body>
+
+</html>
